@@ -6,4 +6,3 @@ sonar.sources=src
 sonar.language=typeScript
 sonar.sourceEncoding=UTF-8
 
-sonar.tests=**/*.spec.ts

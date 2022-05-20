@@ -3,9 +3,9 @@ sonar.organization=fernandoomarcelino
 
 sonar.sources=src/category
 
-sonar.test.inclusions=’/testing/,/*.spec.ts,/*.spec.tsx’
+sonar.test.inclusions='/*.spec.ts,/*.spec.tsx'
 
 sonar.language=typeScript
 sonar.sourceEncoding=UTF-8
 
-sonar.javascript.lcov.reportPaths=src/coverage/clover.xml
+sonar.typescript.lcov.reportPaths=src/coverage/clover.xml

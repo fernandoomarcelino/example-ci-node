@@ -1,8 +1,9 @@
 sonar.projectKey=fernandoomarcelino_example-ci-node
 sonar.organization=fernandoomarcelino
 
-sonar.sources=src
+sonar.sources=src/category
 
 sonar.language=typeScript
 sonar.sourceEncoding=UTF-8
 
+sonar.php.coverage.reportPaths=src/coverage/clover.xml

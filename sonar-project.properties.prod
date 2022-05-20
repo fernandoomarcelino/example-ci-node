@@ -2,8 +2,9 @@ sonar.projectKey=fernandoomarcelino_example-ci-node
 sonar.organization=fernandoomarcelino
 
 sonar.sources=src/category
+sonar.exclusions=*.spec.ts
 
-sonar.test.inclusions='/*.spec.ts,/*.spec.tsx'
+sonar.test.inclusions=*.spec.ts
 
 sonar.language=typeScript
 sonar.sourceEncoding=UTF-8

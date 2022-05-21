@@ -1,5 +1,7 @@
-sonar.projectKey=fernandoomarcelino_example-ci-node
-sonar.organization=fernandoomarcelino
+sonar.projectKey=app-example-ci-node
+
+sonar.host.url=http://localhost:9000
+sonar.login=
 
 sonar.sources=src/category
 sonar.exclusions=**.spec.ts

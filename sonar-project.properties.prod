@@ -2,11 +2,11 @@ sonar.projectKey=fernandoomarcelino_example-ci-node
 sonar.organization=fernandoomarcelino
 
 sonar.sources=src/category
-sonar.exclusions=*.spec.ts
-
 sonar.exclusions='src/coverage,**.spec.ts'
+
+sonar.test.inclusions=**.spec.ts
 
 sonar.language=typeScript
 sonar.sourceEncoding=UTF-8
 
-sonar.typescript.lcov.reportPaths=src/coverage/clover.xml
+sonar.typescript.lcov.reportPaths=src/coverage/lcov.info

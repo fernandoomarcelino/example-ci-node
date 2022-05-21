@@ -4,7 +4,7 @@ sonar.host.url=http://localhost:9000
 sonar.login=49f5e1cf24108e7b2bd6e68d1242dce4852842a8
 
 sonar.sources=src/category
-sonar.exclusions=**.spec.ts
+sonar.exclusions='src/coverage,**.spec.ts'
 
 sonar.test.inclusions=**.spec.ts
 

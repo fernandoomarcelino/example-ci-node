@@ -7,19 +7,25 @@ describe('Category Unit Tests', () => {
         const props: CategoryProperties = {
             name: 'Movie',
             description: 'some description',
-            is_active: true,
+            is_active: false,
             created_at: new Date
         }
 
         // Act
-        const category = new Category(props);
+        let category = new Category(props);
 
         // Assert
         expect(category.props).toStrictEqual(props)
 
         expect(category.name).toBe('Movie');
         expect(category.description).toBe('some description');
-        expect(category.is_active).toBeTruthy();
+        expect(category.is_active).toBeFalsy();
         expect(category.created_at).toBe(props.created_at);
+
+        category = new Category({name: 'Series'});
+        expect(category.name).toBe('Series');
+        expect(category.description).toBe('');
+        expect(category.is_active).toBeTruthy();
+        expect(!!category.created_at).toBeTruthy();
     });
 });

@@ -27,6 +27,5 @@ export class Category {
     get created_at () {
         return this.props.created_at;
     }
-    public create() {
-    }
+
 }

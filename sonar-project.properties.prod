@@ -2,7 +2,7 @@ sonar.projectKey=fernandoomarcelino_example-ci-node
 sonar.organization=fernandoomarcelino
 
 sonar.sources=src/category
-sonar.exclusions=**.spec.ts
+sonar.exclusions='src/coverage,**.spec.ts'
 
 sonar.test.inclusions=**.spec.ts
 
